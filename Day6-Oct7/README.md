@@ -1,5 +1,5 @@
 # October 7, 2021
-time: 2
+time: 1.5
 
 ## Class Discussion
 - Review do while loops
