@@ -1,3 +1,6 @@
 Future
 Plans
 .vscode
+Day*/*
+!Day*/*.cpp
+!Day*/*.md
