@@ -11,4 +11,4 @@ September:
 October
 - [Oct 7](Day6-Oct7/)
 - [Oct 19](Day7-Oct19/)
-- 
+- [Oct 26](Day8-Oct26/) 
