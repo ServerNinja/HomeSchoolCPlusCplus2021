@@ -29,3 +29,5 @@ October
 - [Oct 19](Day7-Oct19/)
 - [Oct 26](Day8-Oct26/) 
 
+November
+- [Nov 1](Day9-Nov2/)
