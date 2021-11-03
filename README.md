@@ -30,4 +30,4 @@ October
 - [Oct 26](Day8-Oct26/) 
 
 November
-- [Nov 1](Day9-Nov2/)
+- [Nov 2](Day9-Nov2/)
