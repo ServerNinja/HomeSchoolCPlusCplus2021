@@ -9,6 +9,6 @@ time: 1.5
 - foo, bar variables...
 
 ## Resources
-- [math.h reference](https://www.cplusplus.com/reference/cmath/sqrt/)
+- [math.h reference](https://www.cplusplus.com/reference/cmath)
 
 ## Homework
