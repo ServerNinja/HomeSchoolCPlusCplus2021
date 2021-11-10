@@ -1,5 +1,5 @@
 # November 9, 2021
-time: 2
+time: 1.5
 
 # Class Discussion
 - Char type
