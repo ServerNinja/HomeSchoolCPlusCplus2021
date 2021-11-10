@@ -11,6 +11,18 @@
 
 using namespace std;
 
+void printLabels(string address, string city, string state, 
+                 string zip, string recipient, int num) {
+    cout << endl << "Labels..." << endl;
+    for(int x=1; x<=num; x++) {
+        cout << endl;
+        cout << recipient << endl;
+        cout << address << endl;
+        cout << city << ", " << state << " " << zip << endl;
+        cout << "Box " << x << " of " << num << endl;
+    }
+}
+
 int main() {
     int num;
     string address, city, state, zip, recipient;
@@ -35,14 +47,7 @@ int main() {
         cin >> num;
     } while(num < 0); 
 
-    cout << endl << "Labels..." << endl;
-    for(int x=1; x<=num; x++) {
-        cout << endl;
-        cout << recipient << endl;
-        cout << address << endl;
-        cout << city << ", " << state << " " << zip << endl;
-        cout << "Box " << x << " of " << num << endl;
-    }
+    printLabels(address, city, state, zip, recipient, num);
 
     return(0);
 }

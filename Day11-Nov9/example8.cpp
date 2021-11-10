@@ -9,22 +9,26 @@
 
 using namespace std;
 
-int main() {
-    // insert code here...
-    string sentence;
+string removeSpaces(string sentence) {
     string sentenceRevised;
-
-    cout << "Please type in a sentence: ";
-    getline(cin, sentence);
 
     for (int i=0; i<sentence.length(); i++) {
       if (sentence[i] != ' ') {
           sentenceRevised.push_back(sentence[i]);
       }
     }
+    return(sentenceRevised);
+}
+
+int main() {
+    // insert code here...
+    string sentence;
+
+    cout << "Please type in a sentence: ";
+    getline(cin, sentence);
 
     cout << "-----------------------------" << endl;
-    cout << sentenceRevised <<;
+    cout << removeSpaces(sentence) << endl;
 
     // program exit...
     return(0);
