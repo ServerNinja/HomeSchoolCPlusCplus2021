@@ -1,6 +1,21 @@
 #include <iostream>
 #include <sys/ioctl.h>
 
+//#############################################
+// Set Cursor Position
+void setCursorPosition(int XPos, int YPos) {
+    printf("\033[%d;%dH",YPos+1,XPos+1);
+}
+
+//#############################################
+// Clear Screen
+void clearScreen() {
+    printf("\033[2J");
+    printf("\033[1;1H");
+}
+
+//#############################################
+// Query Terminal Size
 struct termSize {
     int array[2];
 };
@@ -25,19 +40,3 @@ int main (void)
     return 0;
 }
 */
-
-void setCursorPosition(int XPos, int YPos) {
-    printf("\033[%d;%dH",YPos+1,XPos+1);
-}
-void getCursor(int* x, int* y) {
-   printf("\033[6n");  /* This escape sequence !writes! the current
-                          coordinates to the terminal.
-                          We then have to read it from there, see [4,5].
-                          Needs <termios.h>,<unistd.h> and some others */
-   scanf("\033[%d;%dR", x, y);
-}
-
-void clearScreen() {
-    printf("\033[2J");
-    printf("\033[1;1H");
-}

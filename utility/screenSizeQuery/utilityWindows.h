@@ -1,6 +1,24 @@
 #include <windows.h>
+#include <conio.h>
 #include <iostream>
 
+//#############################################
+// Set Cursor Position
+void setCursorPosition(int XPos, int YPos) {
+    COORD coordinate;
+    coordinate.X = XPos;
+    coordinate.Y = YPos;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coordinate);
+}
+
+//#############################################
+// Clear Screen
+void clearScreen() {
+    system("cls");
+}
+
+//#############################################
+// Query Terminal Size
 struct termSize {
     int array[2];
 };
