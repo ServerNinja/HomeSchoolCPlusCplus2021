@@ -1,6 +1,8 @@
 #include <iostream>
 #include <windows.h>
 
+using namespace std; 
+
 struct termSize {
     int array[2];
 };
