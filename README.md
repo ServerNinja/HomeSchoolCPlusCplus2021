@@ -1,18 +1,9 @@
 # C++ Coding Class 2021
 
 ## Setting up your development environment
-### Console programming with VS Code
-1. Install [Mingw-64](https://sourceforge.net/projects/mingw/)
-    - Video tutorial on [installing mingw for Windows 10](https://www.youtube.com/watch?v=9PAglZlRolo)
-2. Install [VS Code](https://code.visualstudio.com/download) 
-3. [Set up PATH system environment variable](https://windowsreport.com/edit-windows-path-environment-variable/): C:\MinGW\bin
-4. [Configure VS Code for GCC with Mingw-64](https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites)
-    - Install c++ intelligence plugin
-    - Install "Code Runner" plugin
-      - configure code runner settings to output to terminal
 
-### Forms programming (GUI) with Visual Studio Community Edition
-- Instructions coming soon...
+- For VS Code - [Click Here](./Setup-VSCode.md)
+- For GUI (Forms Programming) - [Click Here](./Setup-GUI-Forms.md)
 
 *  *  *  *  *
 
@@ -33,3 +24,8 @@ November
 - [Nov 2](Day9-Nov2/)
 - [Nov 4](Day10-Nov4/)
 - [Nov 9](Day11-Nov9/)
+
+## Misc
+- [C++ Templates](./templates)
+- Utilities
+  - [TerminalSizeQuery Example](./utility/screenSizeQuery)
