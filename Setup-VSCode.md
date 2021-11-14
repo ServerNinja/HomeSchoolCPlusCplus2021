@@ -21,7 +21,9 @@
    ```
 6. At this point, it should auto-complete a number of settings for code runner to execute for various languages.
 7. You'll need to edit the settings for "C" and "C++" as follows:
-   - Windows:
-     ![](images/code-runner-external-windows.png)
-   - Linux / Mac OS:
-     ![](images/code-runner-external-linux.png)
+    - Windows:
+      ![](images/code-runner-external-windows.png)
+    - Mac OS:
+      ![](images/code-runner-external-linux.png)
+    - Linux:
+      - TBD
