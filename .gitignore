@@ -1,7 +1,15 @@
 Future
 Plans
 .vscode
+
+# For folders starting with "
 Day*/*
 !Day*/*.cpp
 !Day*/*.md
+
+# For utility folder
+utility*/*
+!utility*/*.cpp
+!utility*/*.md
+
 tempCodeRunnerFile.cpp
