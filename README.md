@@ -2,7 +2,7 @@
 
 ## Setting up your development environment
 ### Console programming with VS Code
-1. Install [Mingw-64](https://sourceforge.net/projects/mingw-w64/)
+1. Install [Mingw-64](https://sourceforge.net/projects/mingw/)
     - Video tutorial on [installing mingw for Windows 10](https://www.youtube.com/watch?v=9PAglZlRolo)
 2. Install [VS Code](https://code.visualstudio.com/download) 
 3. [Set up PATH system environment variable](https://windowsreport.com/edit-windows-path-environment-variable/): C:\MinGW\bin
