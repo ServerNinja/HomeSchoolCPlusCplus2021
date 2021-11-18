@@ -25,5 +25,5 @@
       ![](images/code-runner-external-windows.png)
     - Mac OS:
       ![](images/code-runner-external-linux.png)
-    - Linux:
-      - TBD
+    - Linux (example with xterm installed):
+      ![](images/linux-executorMap.png)
