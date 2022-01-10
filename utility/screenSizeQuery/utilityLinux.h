@@ -4,7 +4,9 @@
 //#############################################
 // Set Cursor Position
 void setCursorPosition(int XPos, int YPos) {
-    printf("\033[%d;%dH",YPos+1,XPos+1);
+//    printf("\033[%d;%dH",YPos+1,XPos+1);
+    printf("%c[%d;%df",0x1B,YPos+1,XPos+1);
+
 }
 
 //#############################################
